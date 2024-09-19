@@ -39,7 +39,7 @@ const Batterylife = () => {
             </div>
             <div className="hiw-video">
                 <video className="pointer-events-none" playsInline preload="none" muted autoPlay ref={videoRef}>
-                  <source src={ bVideo} type="video/mp4" />
+                  <source src={bVideo} type="video/mp4" />
                 </video>
               </div>
           </div>
